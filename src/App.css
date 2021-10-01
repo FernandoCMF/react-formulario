@@ -1,8 +1,18 @@
 * {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #647C90;
+}
+/* #0C4160
+#071330
+*/
+.App {
+  background-color: #071330;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
