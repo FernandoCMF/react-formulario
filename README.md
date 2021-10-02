@@ -12,4 +12,4 @@ do código e de como vai facilitar na leitura.
 - Display grid
 - Organização
 
-## Projeto continua nos proximos episódios :)
+## Projeto continua nas proximas branches :)
