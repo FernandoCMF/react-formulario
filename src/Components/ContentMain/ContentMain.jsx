@@ -26,35 +26,31 @@ function ContentMain(props) {
         <div className='content-wrapper__right'>
           <h1
             className='title'
-            style={{ fontWeight: "normal", margin: "30px 0 20px 0" }}
+            style={{ fontWeight: "normal", marginBottom: "30px" }}
           >
             Faça parte da nossa equipe
           </h1>
           <form className='form'>
-            <input
-              className='input-form'
-              type='text'
-              name='name'
-              placeholder='Email'
-            />
-            <input
-              className='input-form'
-              type='password'
-              name='password'
-              placeholder='Senha'
-            />
-            <input
-              className='input-form'
-              type='password'
-              name='confpassword'
-              placeholder='Confirmar Senha'
-            />
+            <div className='input-form'>
+              <input type='text' name='name' placeholder='Email' />
+            </div>
+
+            <div className='input-form'>
+              <input type='password' name='password' placeholder='Senha' />
+            </div>
+
+            <div className='input-form'>
+              <input
+                type='password'
+                name='confpassword'
+                placeholder='Confirmar Senha'
+              />
+            </div>
           </form>
-          <div className='form-office'></div>
           <button
             className='info-button'
             type='submit'
-            style={{ background: "#5dcad1" }}
+            style={{ background: "#5dcad1", marginTop: "40px" }}
           >
             Cadastrar
           </button>
