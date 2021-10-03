@@ -1,15 +1,10 @@
 # React-Formulario
 
-Content main concluido. Porém, feito primeiramente
-sem se preocupar com a organização dos components,
-para nós entendermos a necessidade da organização
-do código e de como vai facilitar na leitura.
+Criação do componente button concluido. Separando os componentes que poderam ser usado mais de uma vez durante o projeto.
 
-## Principais objetivos do projeto
+## Principais objetivos
 
-- Formulario
-- css - hover
-- Display grid
+- Facilitar na manutenção
 - Organização
 
 ## Projeto continua nos proximos episódios :)
