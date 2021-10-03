@@ -56,31 +56,6 @@
   color: #0c2d48;
 }
 
-.info-button {
-  background: #0c2d48;
-  margin-top: 20x;
-  max-width: 250px;
-  width: 60%;
-  height: 50px;
-  border-radius: 5px;
-  display: inline-block;
-  cursor: pointer;
-  font-size: 2rem;
-  color: #ffffff;
-  text-decoration: none;
-  border: none;
-
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease-in;
-  -ms-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-}
-
-.info-button:hover {
-  width: 90%;
-}
-
 .content-wrapper__right {
   background-color: #0c2d48;
   display: flex;
@@ -93,6 +68,7 @@
 
 .form {
   margin-top: 20px;
+  margin-bottom: 20px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;

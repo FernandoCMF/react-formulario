@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContentMain.css";
 import image from "../../Assets/img-1.png";
+import { Button } from "../Buttons/Buttons";
 
 function ContentMain(props) {
   return (
@@ -15,9 +16,9 @@ function ContentMain(props) {
               <h2 className='title'>{props.left_title}</h2>
               <p className='subtitle'>{props.left_subtitle}</p>
             </div>
-            <button className='info-button' type='button'>
-              {props.namebtn}
-            </button>
+            <Button className='btn' buttonStyle='btn--primary'>
+              {props.btnTitle}
+            </Button>
           </div>
         </div>
       </div>
@@ -47,13 +48,9 @@ function ContentMain(props) {
               />
             </div>
           </form>
-          <button
-            className='info-button'
-            type='submit'
-            style={{ background: "#5dcad1", marginTop: "40px" }}
-          >
+          <Button className='btn' buttonStyle='btn--outline'>
             Cadastrar
-          </button>
+          </Button>
         </div>
       </div>
     </div>

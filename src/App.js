@@ -8,7 +8,7 @@ function App() {
       <ContentMain
         left_title='Seja Bem-vindo'
         left_subtitle='Já faz parte da nossa equipe?'
-        namebtn='Login'
+        btnTitle='Login'
       />
     </div>
   );
