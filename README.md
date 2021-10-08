@@ -1,9 +1,10 @@
 # React-Formulario
 
-Configurando rotas das pages usado o react-router-dom
+Branch feita para separa o parte de desenvolvimento do que vai ser subida para a branch master
 
 ## Principais objetivos
 
-- Navegação entre as pages
+- Facilitar na manutenção
+- Organização
 
-## Projeto continua nos proximos branches :)
+## Projeto continua nos proximos episódios :)
