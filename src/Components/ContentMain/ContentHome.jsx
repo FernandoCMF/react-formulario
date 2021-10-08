@@ -1,9 +1,9 @@
 import React from "react";
-import "./ContentMain.css";
+import "./ContentHome.css";
 import image from "../../Assets/img-1.png";
 import { Button } from "../Buttons/Buttons";
 
-function ContentMain(props) {
+function ContentHome(props) {
   return (
     <div className='content-main'>
       <div className='content-half'>
@@ -16,7 +16,8 @@ function ContentMain(props) {
               <h2 className='title'>{props.left_title}</h2>
               <p className='subtitle'>{props.left_subtitle}</p>
             </div>
-            <Button className='btn' buttonStyle='btn--primary'>
+
+            <Button className='btn' buttonStyle='btn--primary' path='/Login'>
               {props.btnTitle}
             </Button>
           </div>
@@ -57,4 +58,4 @@ function ContentMain(props) {
   );
 }
 
-export default ContentMain;
+export default ContentHome;

@@ -1,15 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/Login";
 import "./App.css";
-import ContentMain from "./Components/ContentMain/ContentMain";
 
 function App() {
   return (
     <div className='App'>
-      <ContentMain
-        left_title='Seja Bem-vindo'
-        left_subtitle='Já faz parte da nossa equipe?'
-        btnTitle='Login'
-      />
+      <Router>
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/Login' component={Login} />
+        </Switch>
+      </Router>
     </div>
   );
 }

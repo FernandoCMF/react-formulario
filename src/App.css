@@ -8,7 +8,9 @@
 /* #0C4160
 #071330
 */
-.App {
+.App,
+.Home,
+.Login {
   background-color: #071330;
   display: flex;
   justify-content: center;
