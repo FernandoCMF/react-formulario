@@ -1,6 +1,6 @@
 import "../../App.css";
 import React from "react";
-import ContentHome from "../../Components/ContentMain/ContentHome";
+import ContentHome from "../../Components/ContentHome/ContentHome";
 
 function Home() {
   return (
@@ -8,7 +8,9 @@ function Home() {
       <ContentHome
         left_title='Seja Bem-vindo'
         left_subtitle='Já faz parte da nossa equipe?'
-        btnTitle='Login'
+        left_btnTitle='Login'
+        rigth_subtitle='Faça parte da nossa equipe'
+        rigth_btnTitle='Cadastrar'
       />
     </>
   );

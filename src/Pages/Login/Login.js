@@ -1,10 +1,11 @@
 import React from "react";
+import ContentLogin from "../../Components/ContentLogin/ContentLogin";
 
 function Login() {
   return (
-    <div>
-      <h1>LOGIN</h1>
-    </div>
+    <>
+      <ContentLogin />
+    </>
   );
 }
 

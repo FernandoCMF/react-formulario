@@ -4,10 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  outline: 1px solid red;
 }
-/* #0C4160
-#071330
-*/
+
 .App,
 .Home,
 .Login {
