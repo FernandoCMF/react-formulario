@@ -7,4 +7,4 @@ Branch feita para separa o parte de desenvolvimento do que vai ser subida para a
 - Facilitar na manutenção
 - Organização
 
-## Projeto continua nos proximos episódios :)
+## Projeto continua nas proximas branches :)
