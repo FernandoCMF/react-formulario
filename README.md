@@ -1,10 +1,10 @@
 # React-Formulario
 
-Branch feita para separa o parte de desenvolvimento do que vai ser subida para a branch master
-
+Dando uma limpeza no codigo, e organizando ele.
+### Agora vejo o sentido de usar o styled-component
 ## Principais objetivos
 
 - Facilitar na manutenção
 - Organização
 
-## Projeto continua nos proximos episódios :)
+## Projeto continua nas proximas branches :)
